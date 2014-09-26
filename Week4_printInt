@@ -1,0 +1,23 @@
+/*Write a function to print positive integers from 1 to 100. Call the function from the main function!
+*/
+
+#include<stdio.h>
+void printIntegers();
+
+int main()
+{
+	
+	printIntegers(); //Calling printIntegers();
+	
+	return 0;
+}
+//This function prints positive integers from 1 to 100!
+void printIntegers()
+{
+	int i;//counter
+	for(i=1;i<=100;i++)
+	{
+		printf("%d,",i);
+	}
+		
+}
