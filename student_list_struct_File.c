@@ -2,7 +2,9 @@
 Student’s id number
 Student’s grades (A,B,C,D,E,F) (a string not more than 10 characters)
 Student's name (a string not more than 30 characters)
-Define an array of 100 students.
+
+This information is obtained from file input.dat
+this file is also in github
 Input information for each student.
 Display the list of the students.
 */
@@ -30,7 +32,9 @@ int main()
 	char keyName[N+1];
 	int i=0;
 	int key;
-	
+	/*1235;ABC;Harry
+	7892;DAAB;Bart
+	*/
 	FILE *fp=fopen("input.dat","r");
 	if(fp!=NULL)
 	{
