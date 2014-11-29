@@ -20,6 +20,7 @@ struct Student{
 	
 };
 
+
 void display(struct Student s[]);
 void search(struct Student s[],int key);
 void searchName(struct Student s[],char keyName[]);
